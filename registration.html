@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Registration-Form</title>
+        <link rel="stylesheet" href="registration.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="heading">
+                <span class="re">Re</span>gistration
+            </div>
+            <form action="#">
+                <div class="details">
+                    <div class="content">
+                        <div class="division">
+                            <label for="fullname">Full Name</label>
+                            <input type="text" placeholder="Enter your name" required>
+                        </div>
+                        <div class="division">
+                            <label for="username">Username</label>
+                            <input type="text" placeholder="Enter your username" required >
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="division">
+                            <label for="email">Email</label>
+                            <input type="email" placeholder="Enter your email" required>                        
+                        </div>
+                        <div class="division">
+                            <label for="pno">Phone Number</label>
+                            <input type="tel" placeholder="Enter your number" required>                        
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="division">
+                            <label for="password">Password</label>
+                            <input type="password" placeholder="Enter your password" required>                        
+                        </div>
+                        <div class="division">
+                            <label for="password2">Confirm Password</label>
+                            <input type="password" placeholder="Confirm your password" required>       
+                        </div>
+                    </div>
+                </div>
+                <div class="gender">
+                    <span>Gender</span>
+                </div>
+                <div class="radio">
+                    <div class="forgap">
+                        <input type="radio" name="gender" id="gender">
+                        <label for="gender">Male</label>
+                    </div>
+                    <div class="forgap">
+                        <input type="radio" name="gender" id="gender">
+                        <label for="gender">Female</label>
+                    </div>
+                    <div class="forgap">
+                        <input type="radio" name="gender" id="gender">
+                        <label for="gender">Prefer not to say</label>
+                    </div>
+                </div>
+                <div class="register">
+                    <button>Register</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
